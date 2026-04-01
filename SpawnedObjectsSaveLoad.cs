@@ -72,7 +72,7 @@ public class SpawnedObjectsSaveLoad : MonoBehaviour
         }
     }
 
-    private void OnApplicationQuit()
+    private void OnDestroy()
     {
         SaveSpawnedObjects();
     }
